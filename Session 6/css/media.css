@@ -1,0 +1,171 @@
+/*//////////////////// mobile //////////////////*/
+@media (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
+    /* ///////////////header section//////////// */
+    /* **********nav bar********* */
+    .nav {
+        position: relative;   
+    }
+    .nav ul {
+        background-color: rgb(65, 63, 63);
+        height: 300px;
+        width: 100%;
+        position: relative;
+        right: 0;
+        text-align: center;
+        transform: translateX(-80%);
+    }
+    .nav ul li  {
+        display: block;
+        padding: 10px;        
+    }
+    .header-content {
+        transform: translateY(-110%);
+    }
+    /* ///////////About section/////////// */
+    
+    .about-sec .txt-box{
+        width: 60%;
+        display: block;
+        transform: translateX(-7%);
+    }
+    .about-sec .inner {
+        transform: translate(0px,0px);
+    }
+    .txt-box .left , 
+    .txt-box .right ,
+    .txt-box h3 ,
+    .txt-box .left p ,
+    .txt-box .right p {
+        display: block;
+    }
+    .txt-box .personal .data h3 ,
+    .txt-box .personal .data p {
+        display: inline;
+        margin: 0;
+}
+    .txt-box .right {
+        padding-left: 0px;
+    }
+    .txt-box h2 + p {
+        border-bottom: 1px dashed #555;
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+    }
+    /*////////////services section///////  */
+    
+    .service .items {
+        width: 60%;
+        display: block;
+        margin: 0 auto ;
+    }
+    .txt-box .left ,
+    .txt-box .right {
+        display: block;
+        width: 95%;
+    } 
+    
+    /* ///////////portfolio section/////// */
+    .portfolio .products {
+        width: 90%;
+    }
+    /* ///////////count section/////////// */
+    .count .counter {
+        width: 90%;
+        transform: scale(1.25);
+    }
+    /* ///////////testimonial section///// */
+    .testimonial .comments {
+        width: 70%;
+    }
+    /* ///////////blog section//////////// */
+    .blog .blogs {
+        width: 90%;
+    }
+    /* ///////////contact section //////// */
+    .contact form .name-in ,
+    .contact form .email-in {
+        width: 95%;
+    }
+    /* ///////////copyright section/////// */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////Tablet device///////////// */
+@media  (min-width: 768px) and (max-width: 992px) {
+    /* ///////Header section//////////// */
+    /* ******nav bar****** */
+    .nav ul {
+         left: 20%; 
+    }
+    /* ///////////About section/////////// */
+    .img-box .inner {
+        transform: translate(0,0);
+    }
+    .txt-box .right {
+        display: inline;
+        width: 50%;
+        padding-left: 0;
+    }
+    /*////////////services section///////  */
+    .service .items {
+        width: 45%;
+    }
+    /* ///////////portfolio section/////// */
+    .portfolio .products {
+        width: 45%;
+    }
+    /* ///////////count section/////////// */
+    .count .counter {
+        width: 45%;
+        transform: scale(1.2);
+    }
+    /* ///////////testimonial section///// */
+    .testimonial .comments {
+        width: 70%;
+    }
+    /* ///////////blog section//////////// */
+    .blog .blogs {
+        width: 45%;
+    }
+    /* ///////////contact section //////// */
+    /* ///////////copyright section/////// */
+}
+
+
+
+
+
+
+
+
+
+
+
